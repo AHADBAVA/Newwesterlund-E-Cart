@@ -1,0 +1,19 @@
+.PlaceOrder-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cart-info a{
+    background-color: rgb(223, 56, 56);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.top{
+    height: 60px;
+}

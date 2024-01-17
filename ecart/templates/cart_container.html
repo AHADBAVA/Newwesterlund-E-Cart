@@ -1,8 +1,17 @@
 {% load static %}
+<link rel="stylesheet" href="{% static "css/PlaceOrderPage.css" %}">
+
+<script>
+const order = () =>{
+  alert("PlaceOrder Button working");
+}
+</script>
+
+
 <div class="small-container cart-page">
   <table>
     <tbody>
-      <tr>
+      <tr class="top">
         <th>Product</th>
         <th>Quantity</th>
         <th>Subtotal</th>
@@ -71,7 +80,7 @@
         </tr>
         <tr>
           <td colspan="2"></td>
-          <td><button>Confirm</button></td>
+          <td><button onclick="order()" class="PlaceOrder-btn">Place Order</button></td>
         </tr>
       </tbody>
     </table>
